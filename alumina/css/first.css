@@ -1,0 +1,108 @@
+#mycontent{
+	min-height: 500px;
+}
+#mycontent table{
+	margin: auto;
+	margin-top: 100px;
+	border: 1px dotted silver;
+}
+#mycontent table td{
+	color: white;
+	padding: 10px;
+}
+#mycontent input[type='text'],input[type='password'],input[type='date'],input[type='email'],select{
+	border-radius: 10px;
+	padding: 4px;
+	width: 250px;
+}
+#mycontent  textarea{
+	width: 250px;
+	border-radius: 10px;
+	height: 100px;
+}
+#mycontent input[type='submit'],input[type='reset'],input[type='button']{
+	border-radius: 10px;
+	padding: 4px;
+}
+#mycontent span{
+	font-size:15px;
+	width: 200px;
+	color:red;
+	}
+#mycontent .datagrid{
+	width: 100%;
+	border-spacing: 0;
+	margin-left: 0;
+}
+#mycontent .datagrid th{
+	background-color: Red;
+	padding-top:10px;
+	padding-bottom:10px;
+	color:yellow;
+}
+#mycontent .datagrid td{
+	padding-top:10px;
+	padding-bottom:10px;
+	color:white;
+}
+ 
+
+ #menubar
+{ 
+  width: 920px;
+  height: 50px;
+  text-align: center; 
+  margin: 0 auto;
+  border: 2px outset silver;
+  background: transparent url(../images/menu_pattern.jpg) repeat;
+  border-radius: 15px 15px 15px 15px;
+  -moz-border-radius: 15px 15px 15px 15px;
+  -webkit-border: 15px 15px 15px 15px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
+} 
+	
+ul#menu
+{ margin:0;}
+
+ul#menu li
+{ padding: 0 0 0 0px;
+  list-style: none;
+  margin: 2px 0 0 0;
+  display: inline;
+  background: transparent;}
+
+ul#menu li a
+{ float: left;
+  font: bold 120% Arial, Helvetica, sans-serif;
+  height: 24px;
+  margin: 10px 0 0 5px;
+  text-shadow: 0px -1px 0px #000;
+  padding: 6px 20px 0 20px;
+  background: transparent; 
+  border-radius: 7px 7px 7px 7px;
+  -moz-border-radius: 7px 7px 7px 7px;
+  -webkit-border: 7px 7px 7px 7px;
+  text-align: center;
+  color: #FFF;
+  text-decoration: none;} 
+
+ul#menu li.current a
+{ color: #1D1D1D;
+  background: #FFF;
+  background: -moz-linear-gradient(#fff, #ccc);
+  background: -o-linear-gradient(#fff, #ccc);
+  background: -webkit-linear-gradient(#fff, #ccc);
+  text-shadow: none;}
+
+ul#menu li:hover a
+{ color: #1D1D1D;
+  background: #FFF;
+  background: -moz-linear-gradient(#fff, #ccc);
+  background: -o-linear-gradient(#fff, #ccc);
+  background: -webkit-linear-gradient(#fff, #ccc);
+  text-shadow: none;}
+
+
+ 
